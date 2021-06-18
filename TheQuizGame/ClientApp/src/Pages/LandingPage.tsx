@@ -7,7 +7,7 @@ interface Props {
 export default function LandingPage({}: Props): ReactElement {
     return (
         <div>
-            Bla
+            Bla 13123123
         </div>
     )
 }
