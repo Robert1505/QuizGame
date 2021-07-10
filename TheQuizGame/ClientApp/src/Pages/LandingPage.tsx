@@ -1,13 +1,17 @@
-import React, { ReactElement } from 'react'
+import React, { ReactElement } from "react";
+import { useStyles } from "./Styles/LandingPageStyles";
 
-interface Props {
-    
-}
+interface Props {}
 
 export default function LandingPage({}: Props): ReactElement {
-    return (
-        <div>
-            Bla
-        </div>
-    )
+  const classes = useStyles();
+  return (
+    <div className={classes.root}>
+      <div className={classes.title}>Car Quiz Game</div>
+      <div className={classes.body}>
+        {/* Difficulty */}
+        {/* Start */}
+      </div>
+    </div>
+  );
 }
